@@ -1,4 +1,4 @@
-# Project Assignment - 2 (Zomato Login Page)
+#Project Assignment - 2 (Zomato Login Page)
 Project Assignment 2 - Make a Zomato Login page with phone number screen and validate phone number to accept only if 10 digits.
 
 ## Steps to run the app in android studio:
