@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="640dp"
+        android:layout_height="253dp"
+        android:layout_gravity="center"
+        android:src="@drawable/zomato_banner" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="India's #1 Food Delivery"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:fontFamily="sans-serif"
+        android:text="and Dining App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="Login or sign up"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="41dp"
+            android:text="+91"
+            android:textSize="20sp"
+            android:layout_marginStart="22dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="22dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="318dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/phone_input"
+            android:hint="Enter the Phone Number"
+            android:inputType="phone"
+            android:ems="10"
+            android:paddingLeft="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="#717171" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="367dp"
+        android:id="@+id/login"
+        android:layout_height="55dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:text="Continue"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#E23749"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="158dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:text="or"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="158dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black">
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="67dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="By continuing, you agree to our\nTerms of Service Privacy Policy Content Policy"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+</LinearLayout>

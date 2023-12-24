@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E23744"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:text="zomato"
+        android:textColor="@color/white"
+        android:textFontWeight="1000"
+        android:textSize="65sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carbon and Plastic Neutral\nDeliveries in India"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textFontWeight="400"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by Joy"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:layout_weight="200"/>
+</LinearLayout>

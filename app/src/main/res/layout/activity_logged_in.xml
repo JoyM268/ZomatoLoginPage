@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E23744"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="zomato"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="1000"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="65sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="700"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>
