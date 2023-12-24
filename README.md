@@ -5,7 +5,7 @@ Project Assignment 2 - Make a Zomato Login page with phone number screen and val
 Navigate as follows:
 File > New > Project from Version Control
 
-paste the following link in url field:
+Paste the following link in url field:
 https://github.com/JoyM268/ZomatoLoginPage.git
 and Click clone
 
